@@ -1,0 +1,571 @@
+{
+  "generated_at": "2026-05-29T05:24:58Z",
+  "source_run_id": "claude-code-refresh-20260529",
+  "items": [
+    {
+      "id": "roadmap-531758",
+      "title": "Declarative agents now read images for richer answers",
+      "summary": "Declarative agents can now interpret images embedded in Word docs, PowerPoint decks, and PDFs, pulling meaning from charts, diagrams, and screenshots so answers draw on visual content and not just text.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "531758",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=531758",
+      "added_at": "2025-11-21T00:00:57Z",
+      "modified_at": "2026-05-27T23:15:50Z",
+      "tags": [
+        "Agents",
+        "Vision",
+        "Grounding"
+      ]
+    },
+    {
+      "id": "roadmap-560076",
+      "title": "Create charts on SharePoint pages with AI",
+      "summary": "While editing a SharePoint page, describe the chart you want in plain language and AI builds a rich, interactive chart for you.",
+      "app": "SharePoint",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "560076",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560076",
+      "added_at": "2026-04-09T23:15:51Z",
+      "modified_at": "2026-05-27T23:15:50Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Charts",
+        "Page authoring",
+        "Data viz"
+      ]
+    },
+    {
+      "id": "roadmap-516040",
+      "title": "Add web links as references in Copilot Notebooks",
+      "summary": "Copilot Notebooks can now use web links as grounding references alongside your other sources.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "516040",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=516040",
+      "added_at": "2025-10-15T22:45:29Z",
+      "modified_at": "2026-05-27T23:15:50Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Notebooks",
+        "Grounding",
+        "Web"
+      ]
+    },
+    {
+      "id": "roadmap-560539",
+      "title": "Query Dataverse business data from Microsoft 365 Copilot",
+      "summary": "Search and query your Dataverse business data directly from Microsoft 365 Copilot.",
+      "app": "Microsoft 365 Copilot",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "560539",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560539",
+      "added_at": "2026-05-27T23:15:50Z",
+      "modified_at": "2026-05-27T23:15:50Z",
+      "expected_release": "2026 Q3",
+      "tags": [
+        "Dataverse",
+        "Business data",
+        "Grounding"
+      ]
+    },
+    {
+      "id": "roadmap-553594",
+      "title": "Built-in AI Interpreter for calls on Teams Phone devices",
+      "summary": "Teams Phone devices gain real-time spoken-language interpretation during calls, so people can take part naturally in multilingual conversations.",
+      "app": "Teams",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Android"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "553594",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=553594",
+      "added_at": "2026-02-11T00:15:04Z",
+      "modified_at": "2026-05-27T23:15:50Z",
+      "expected_release": "2026 Q3",
+      "tags": [
+        "Translation",
+        "Calling",
+        "Accessibility"
+      ]
+    },
+    {
+      "id": "roadmap-559095",
+      "title": "Multimodal capture in Copilot Notebooks on iPhone",
+      "summary": "Transcribe audio, snap photos, and type notes in a single session on iPhone; Copilot turns it into a structured Copilot Page saved to your notebook. Built for capturing in-person conversations and whiteboard sessions.",
+      "app": "OneNote",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "iOS"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "559095",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559095",
+      "added_at": "2026-03-24T23:15:57Z",
+      "modified_at": "2026-05-26T23:00:59Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Notebooks",
+        "Mobile",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "roadmap-558440",
+      "title": "Choose Anthropic models when editing with Copilot in Word",
+      "summary": "When editing a document with Copilot in Word, you can now select Anthropic models in addition to OpenAI models.",
+      "app": "Word",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "558440",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=558440",
+      "added_at": "2026-03-10T23:00:58Z",
+      "modified_at": "2026-05-26T23:00:59Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Models",
+        "Editing",
+        "Choice"
+      ]
+    },
+    {
+      "id": "roadmap-509109",
+      "title": "Write, code, and create with Copilot in Pages",
+      "summary": "From the tools menu in Copilot Chat, co-create content or code with Copilot directly in a Page, then share it when it is ready.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "509109",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=509109",
+      "added_at": "2025-10-03T22:00:02Z",
+      "modified_at": "2026-05-26T23:00:59Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Pages",
+        "Content creation",
+        "Coding"
+      ]
+    },
+    {
+      "id": "roadmap-561037",
+      "title": "Vision in Microsoft 365 Copilot reads your screen and camera",
+      "summary": "Share your desktop screen or phone camera and Copilot analyzes what it sees in real time, answering spoken questions grounded in both work and web data.",
+      "app": "Microsoft 365 Copilot",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Mobile",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "561037",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=561037",
+      "added_at": "2026-05-11T23:15:11Z",
+      "modified_at": "2026-05-26T23:00:59Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Vision",
+        "Multimodal",
+        "Real-time"
+      ]
+    },
+    {
+      "id": "roadmap-551195",
+      "title": "Personalized Copilot memory from your work activity",
+      "summary": "Copilot uses your Microsoft 365 activity to give more relevant, contextual responses, with clearer settings to view and manage what it remembers.",
+      "app": "Microsoft 365 Copilot",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Android",
+        "Windows",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "551195",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=551195",
+      "added_at": "2026-01-27T00:01:00Z",
+      "modified_at": "2026-05-26T23:00:59Z",
+      "expected_release": "2026 Q3",
+      "tags": [
+        "Memory",
+        "Personalization",
+        "Context"
+      ]
+    },
+    {
+      "id": "roadmap-564605",
+      "title": "Highlight and rewrite email drafts with Copilot",
+      "summary": "Select part of an email draft and ask Copilot to rework it, changing the length, tone, or structure without rewriting the whole message.",
+      "app": "Outlook",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "564605",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=564605",
+      "added_at": "2026-05-26T22:45:59Z",
+      "modified_at": "2026-05-26T22:45:59Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Email",
+        "Drafting",
+        "Rewrite"
+      ]
+    },
+    {
+      "id": "roadmap-559029",
+      "title": "Mind Maps in Copilot Notebooks",
+      "summary": "Copilot generates an interactive mind map of a notebook's key topics and how they relate. Explore nodes, read per-node summaries, and ask the notebook chat for more detail.",
+      "app": "OneNote",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "559029",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559029",
+      "added_at": "2026-03-24T23:15:57Z",
+      "modified_at": "2026-05-22T22:15:37Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Notebooks",
+        "Mind maps",
+        "Visualization"
+      ]
+    },
+    {
+      "id": "roadmap-553136",
+      "title": "Surveys Agent and Copilot Chat in Microsoft Forms",
+      "summary": "Copilot Chat is now built into Microsoft Forms, with a Surveys Agent that recommends improvements to a form or quiz, drafts invitations, and analyzes results.",
+      "app": "Copilot Chat",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "553136",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=553136",
+      "added_at": "2026-01-29T00:15:19Z",
+      "modified_at": "2026-05-22T22:15:37Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Forms",
+        "Agents",
+        "Surveys"
+      ]
+    },
+    {
+      "id": "roadmap-516576",
+      "title": "Project Manager agent in Microsoft 365 Copilot",
+      "summary": "A new Project Manager agent helps you plan, organize, and track work, starting with core task and plan management and adding deeper project capabilities over time.",
+      "app": "Microsoft 365 Copilot",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "516576",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=516576",
+      "added_at": "2025-11-18T17:15:10Z",
+      "modified_at": "2026-05-22T22:15:37Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Agents",
+        "Project management",
+        "Planning"
+      ]
+    },
+    {
+      "id": "roadmap-548641",
+      "title": "Open Word, Excel, and PowerPoint files inside Copilot Chat",
+      "summary": "Cited documents now open directly within Copilot Chat instead of launching a separate app, so you can read a source alongside the conversation.",
+      "app": "Copilot Chat",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "548641",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=548641",
+      "added_at": "2026-01-30T23:15:49Z",
+      "modified_at": "2026-05-21T23:15:57Z",
+      "tags": [
+        "Documents",
+        "Citations",
+        "Productivity"
+      ]
+    },
+    {
+      "id": "roadmap-481825",
+      "title": "Chat one-on-one with SharePoint agents in Teams",
+      "summary": "Start a direct, one-on-one chat with a SharePoint agent from within a Teams chat.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Rolling out",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "481825",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=481825",
+      "added_at": "2025-02-19T00:00:11Z",
+      "modified_at": "2026-05-21T23:15:57Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Agents",
+        "Teams",
+        "SharePoint"
+      ]
+    },
+    {
+      "id": "roadmap-557256",
+      "title": "Explain selected slide text during PowerPoint Live",
+      "summary": "In a PowerPoint Live session, attendees can select text on a slide and ask Copilot to explain it.",
+      "app": "PowerPoint",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "557256",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=557256",
+      "added_at": "2026-02-21T00:30:02Z",
+      "modified_at": "2026-05-20T23:15:13Z",
+      "expected_release": "2026 Q2",
+      "tags": [
+        "Presentations",
+        "Meetings",
+        "Explanations"
+      ]
+    },
+    {
+      "id": "roadmap-560537",
+      "title": "Create a presentation with Copilot straight from the web app",
+      "summary": "Copilot can now generate a full presentation the moment you open PowerPoint for the web, with no extra steps to get started.",
+      "app": "PowerPoint",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "560537",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560537",
+      "added_at": "2026-04-21T23:00:01Z",
+      "modified_at": "2026-05-19T22:45:25Z",
+      "tags": [
+        "Presentations",
+        "Content creation"
+      ]
+    },
+    {
+      "id": "roadmap-497909",
+      "title": "List your email attachments in Microsoft 365 Copilot",
+      "summary": "Ask Copilot to list the files you have sent or received as email attachments so you can find them without digging through your inbox.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Developer",
+        "iOS",
+        "Linux",
+        "Mac",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "497909",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=497909",
+      "added_at": "2025-07-02T23:15:48Z",
+      "modified_at": "2026-05-19T22:45:25Z",
+      "tags": [
+        "Email",
+        "Search",
+        "Files"
+      ]
+    },
+    {
+      "id": "roadmap-558540",
+      "title": "Video recap in Teams meetings",
+      "summary": "Intelligent meeting recap now produces narrated video highlights, stitching together short clips of the key moments and takeaways from a recording.",
+      "app": "Teams",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "558540",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=558540",
+      "added_at": "2026-03-12T23:00:54Z",
+      "modified_at": "2026-05-18T22:30:51Z",
+      "tags": [
+        "Meetings",
+        "Recap",
+        "Video"
+      ]
+    },
+    {
+      "id": "roadmap-518222",
+      "title": "Refreshed navigation in the Microsoft 365 Copilot app",
+      "summary": "The Copilot app gets a cleaner layout with expanded chat history, quick actions to create Notebooks and agents, and clearer feature grouping.",
+      "app": "Microsoft 365 Copilot",
+      "status": "Launched",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Web"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "518222",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=518222",
+      "added_at": "2025-10-22T23:15:17Z",
+      "modified_at": "2026-05-18T22:30:51Z",
+      "tags": [
+        "App experience",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "roadmap-559018",
+      "title": "Researcher agent access through Work IQ APIs",
+      "summary": "Developers can call the Researcher agent via the Work IQ endpoint to run multi-step analysis, deep reasoning, and synthesis across enterprise content in agentic workflows.",
+      "app": "Microsoft 365 Copilot",
+      "status": "In development",
+      "release_phase": "General Availability",
+      "platforms": [
+        "Developer"
+      ],
+      "clouds": [
+        "Worldwide"
+      ],
+      "roadmap_id": "559018",
+      "source": "M365 Roadmap",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559018",
+      "added_at": "2026-05-18T22:30:51Z",
+      "modified_at": "2026-05-18T22:30:51Z",
+      "expected_release": "2026 Q3",
+      "tags": [
+        "Agents",
+        "Developer",
+        "Research"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Contact Us" [ref=e8] [cursor=pointer]:
+          - /url: "#"
+          - text: Contact Us
+          - img [ref=e10]
+      - listitem [ref=e12]:
+        - link "Newsroom" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+          - text: Newsroom
+          - img [ref=e15]
+      - listitem [ref=e17]:
+        - link "Global" [ref=e18] [cursor=pointer]:
+          - /url: "#"
+          - text: Global
+          - img [ref=e20]
+      - listitem [ref=e22]:
+        - link "Investors" [ref=e23] [cursor=pointer]:
+          - /url: "#"
+          - text: Investors
+          - img [ref=e25]
+      - listitem [ref=e27]:
+        - link "Medical Information" [ref=e28] [cursor=pointer]:
+          - /url: https://www.beonemedinfo.com/
+          - text: Medical Information
+          - img [ref=e30]
+    - navigation [ref=e33]:
+      - generic [ref=e34]:
+        - link "BeOne Logo" [ref=e35] [cursor=pointer]:
+          - /url: /
+          - img "BeOne Logo" [ref=e36]
+        - generic [ref=e37]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "About" [ref=e41] [cursor=pointer]:
+                - /url: "#"
+                - text: About
+                - img [ref=e43]
+            - listitem [ref=e45]:
+              - link "Science" [ref=e46] [cursor=pointer]:
+                - /url: "#"
+                - text: Science
+                - img [ref=e48]
+            - listitem [ref=e50]:
+              - link "Patients" [ref=e51] [cursor=pointer]:
+                - /url: "#"
+                - text: Patients
+                - img [ref=e53]
+            - listitem [ref=e55]:
+              - link "Responsibility" [ref=e56] [cursor=pointer]:
+                - /url: "#"
+                - text: Responsibility
+                - img [ref=e58]
+            - listitem [ref=e60]:
+              - link "Careers" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+                - text: Careers
+                - img [ref=e63]
+          - button [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+  - generic [ref=e69]:
+    - generic [ref=e72]:
+      - generic [ref=e73]: Together, we are how the world stops cancer
+      - img "Scientists conducting cancer research in a modern laboratory, advancing cancer treatment methods." [ref=e75]
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: BeOne Medicines is building the world’s leading oncology company – driven by scientific excellence and exceptional speed – to reach more patients than ever before.
+        - link "learn what drives us" [ref=e78] [cursor=pointer]:
+          - /url: /about/about-us/
+          - generic [ref=e79]: learn what drives us
+    - generic [ref=e80]:
+      - img "Offset Global Component Watermark Left" [ref=e82]
+      - generic [ref=e88]:
+        - heading "In Cancer Care, Progress Happens One Save at a Time" [level=2] [ref=e90]:
+          - text: In Cancer Care,
+          - text: Progress Happens One
+          - text: Save at a Time
+        - paragraph [ref=e93]: In oncology, every moment has the power to change what’s next. See how BeOne brings together innovative science, an accelerated pipeline, and a commitment to access to make more saves possible.
+        - link "DISCOVER MORE" [ref=e95] [cursor=pointer]:
+          - /url: /one-save-changes-everything/
+          - generic [ref=e96]: DISCOVER MORE
+    - generic [ref=e99]:
+      - img "Family enjoying quality time together, reflecting the importance of cancer treatment support and cancer research advancements." [ref=e102]
+      - generic [ref=e104]:
+        - heading "Leading Cancer Research Worldwide" [level=2] [ref=e106]
+        - paragraph [ref=e109]: People with cancer deserve hope and better tomorrows. BeOne is advancing a broad and deep pipeline, accelerating development through rigorous science to deliver transformative medicines to more people around the world.
+        - link "see our pipeline" [ref=e111] [cursor=pointer]:
+          - /url: /science/pipeline/
+          - generic [ref=e112]: see our pipeline
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Driving Change for People With Cancer" [level=2] [ref=e117]
+        - paragraph [ref=e119]: Learn about how we’re creating impactful medicines to meet the needs of people living with cancer.
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - img "One Save Changes Everything — And We’re Built To Be Ready" [ref=e124]
+          - generic [ref=e125]:
+            - heading "One Save Changes Everything — And We’re Built To Be Ready" [level=4] [ref=e127]
+            - generic:
+              - paragraph
+          - link "read more" [ref=e129] [cursor=pointer]:
+            - /url: https://beonemedicines.com/stories/one-save-changes-everything-and-were-built-to-be-ready/
+            - generic [ref=e130]: read more
+        - generic [ref=e132]:
+          - 'img "Living with Cancer: Richard’s Story" [ref=e134]'
+          - generic [ref=e135]:
+            - 'heading "Living with Cancer: Richard’s Story" [level=4] [ref=e137]'
+            - generic:
+              - paragraph
+          - link "read more" [ref=e139] [cursor=pointer]:
+            - /url: https://beonemedicines.com/stories/living-with-cancer-richards-story/
+            - generic [ref=e140]: read more
+        - generic [ref=e142]:
+          - img "Building a Breast Cancer Pipeline With Purpose" [ref=e144]
+          - generic [ref=e145]:
+            - heading "Building a Breast Cancer Pipeline With Purpose" [level=4] [ref=e147]
+            - generic:
+              - paragraph
+          - link "read more" [ref=e149] [cursor=pointer]:
+            - /url: https://beonemedicines.com/stories/building-a-pipeline-with-purpose/
+            - generic [ref=e150]: read more
+        - generic [ref=e152]:
+          - img "A Culture That Enables Innovation" [ref=e154]
+          - generic [ref=e155]:
+            - heading "A Culture That Enables Innovation" [level=4] [ref=e157]
+            - generic:
+              - paragraph
+          - link "read more" [ref=e159] [cursor=pointer]:
+            - /url: https://beonemedicines.com/stories/a-culture-that-enables-innovation/
+            - generic [ref=e160]: read more
+    - generic [ref=e161]:
+      - img "Offset Global Component Watermark Left" [ref=e163]
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - heading "BeOne News" [level=2] [ref=e169]
+          - link "Go to press releases" [ref=e171] [cursor=pointer]:
+            - /url: https://ir.beonemedicines.com/
+            - generic [ref=e172]: Go to press releases
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - group "1 / 12" [ref=e175]:
+              - link "May 27, 2026 BeOne Medicines Announces Phase 3 HERIZON-GEA Data Published in NEJM and Presented… Read more" [ref=e176] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/beone-medicines-announces-phase-3-herizon-gea-data-published-in-nejm-and-presented-at-asco-2026/846b9a7b-16ad-4d69-9f97-287071e57f1f
+                - generic [ref=e177]:
+                  - heading "May 27, 2026" [level=6] [ref=e178]
+                  - heading "BeOne Medicines Announces Phase 3 HERIZON-GEA Data Published in NEJM and Presented…" [level=4] [ref=e179]
+                - generic [ref=e182]: Read more
+            - group "2 / 12" [ref=e183]:
+              - link "May 26, 2026 BeOne Medicines to Present at the Goldman Sachs 47th Annual Global Healthcare… Read more" [ref=e184] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-to-Present-at-the-Goldman-Sachs-47th-Annual-Global-Healthcare-Conference/d51ba659-04f9-4dbe-bd31-2a3fa313105f%20
+                - generic [ref=e185]:
+                  - heading "May 26, 2026" [level=6] [ref=e186]
+                  - heading "BeOne Medicines to Present at the Goldman Sachs 47th Annual Global Healthcare…" [level=4] [ref=e187]
+                - generic [ref=e190]: Read more
+            - group "3 / 12" [ref=e191]:
+              - link "May 21, 2026 BeOne Medicines Sets the Pace in Oncology at ASCO and EHA 2026… Read more" [ref=e192] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-Sets-the-Pace-in-Oncology-at-ASCO-and-EHA-2026-with-60+-Abstracts/4a61ff99-a44a-4fcd-b82a-e94566abf124%20
+                - generic [ref=e193]:
+                  - heading "May 21, 2026" [level=6] [ref=e194]
+                  - heading "BeOne Medicines Sets the Pace in Oncology at ASCO and EHA 2026…" [level=4] [ref=e195]
+                - generic [ref=e198]: Read more
+            - group "4 / 12" [ref=e199]:
+              - link "May 20, 2026 BeOne Medicines Launches One Save Changes Everything, a Global Cancer Care Awareness… Read more" [ref=e200] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/beone-medicines-launches-one-save-changes-everything-a-global-cancer-care-awareness-campaign-with-soccer/7e4f6bce-5e5c-49c8-b26d-d2bd8e6fe85f
+                - generic [ref=e201]:
+                  - heading "May 20, 2026" [level=6] [ref=e202]
+                  - heading "BeOne Medicines Launches One Save Changes Everything, a Global Cancer Care Awareness…" [level=4] [ref=e203]
+                - generic [ref=e206]: Read more
+            - group "5 / 12" [ref=e207]:
+              - link "May 13, 2026 BeOne Medicines’ BEQALZI™ (sonrotoclax) Approved by U.S. FDA as First and Only… Read more" [ref=e208] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/beone-medicines-beqalzitm-sonrotoclax-approved-by-us-fda-as-first-and-only-bcl2-inhibitor-for/a57256f1-5e36-427a-94c3-2b6be7f2bfb9
+                - generic [ref=e209]:
+                  - heading "May 13, 2026" [level=6] [ref=e210]
+                  - heading "BeOne Medicines’ BEQALZI™ (sonrotoclax) Approved by U.S. FDA as First and Only…" [level=4] [ref=e211]
+                - generic [ref=e214]: Read more
+            - group "6 / 12" [ref=e215]:
+              - link "May 6, 2026 BeOne Medicines Announces First Quarter 2026 Financial Results and Business Updates Read more" [ref=e216] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-Announces-First-Quarter-2026-Financial-Results-and-Business-Updates/b1bc8b58-c16d-4266-a5f9-5c4862ec45ba%20
+                - generic [ref=e217]:
+                  - heading "May 6, 2026" [level=6] [ref=e218]
+                  - heading "BeOne Medicines Announces First Quarter 2026 Financial Results and Business Updates" [level=4] [ref=e219]
+                - generic [ref=e222]: Read more
+            - group "7 / 12" [ref=e223]:
+              - link "April 29, 2026 U.S. FDA Grants Priority Review to BeOne Medicines’ TEVIMBRA in First-Line HER2+… Read more" [ref=e224] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/us-fda-grants-priority-review-to-beone-medicines-tevimbra-in-first-line-her2-gea/2dd4da40-4943-4a0a-ad05-81899dc06d7d
+                - generic [ref=e225]:
+                  - heading "April 29, 2026" [level=6] [ref=e226]
+                  - heading "U.S. FDA Grants Priority Review to BeOne Medicines’ TEVIMBRA in First-Line HER2+…" [level=4] [ref=e227]
+                - generic [ref=e230]: Read more
+            - group "8 / 12" [ref=e231]:
+              - link "April 22, 2026 BeOne Medicines to Announce First Quarter 2026 Financial Results on May 6 Read more" [ref=e232] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-to-Announce-First-Quarter-2026-Financial-Results-on-May-6/969fa7c9-8ace-4b80-aaeb-2b4eb2f15847%20
+                - generic [ref=e233]:
+                  - heading "April 22, 2026" [level=6] [ref=e234]
+                  - heading "BeOne Medicines to Announce First Quarter 2026 Financial Results on May 6" [level=4] [ref=e235]
+                - generic [ref=e238]: Read more
+            - group "9 / 12" [ref=e239]:
+              - link "February 26, 2026 BeOne Medicines Announces Fourth Quarter and Full Year 2025 Financial Results, Highlighting… Read more" [ref=e240] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/beone-medicines-announces-fourth-quarter-and-full-year-2025-financial-results-highlighting-global-success-of/6559b41c-7beb-45ca-bc76-5e1c9cdb26cc
+                - generic [ref=e241]:
+                  - heading "February 26, 2026" [level=6] [ref=e242]
+                  - heading "BeOne Medicines Announces Fourth Quarter and Full Year 2025 Financial Results, Highlighting…" [level=4] [ref=e243]
+                - generic [ref=e246]: Read more
+            - group "10 / 12" [ref=e247]:
+              - link "February 17, 2026 BeOne Medicines to Present at Upcoming Investor Conferences Read more" [ref=e248] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/beone-medicines-to-present-at-upcoming-investor-conference/3e1fb5bc-8c8d-4631-8b16-e11107a18f05
+                - generic [ref=e249]:
+                  - heading "February 17, 2026" [level=6] [ref=e250]
+                  - heading "BeOne Medicines to Present at Upcoming Investor Conferences" [level=4] [ref=e251]
+                - generic [ref=e254]: Read more
+            - group "11 / 12" [ref=e255]:
+              - link "February 11, 2026 BeOne Medicines to Announce Fourth Quarter and Full Year 2025 Financial Results… Read more" [ref=e256] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-to-Announce-Fourth-Quarter-and-Full-Year-2025-Financial-Results-on-February-26/05469328-ac68-408f-b6ac-07cfd0d1680c%20
+                - generic [ref=e257]:
+                  - heading "February 11, 2026" [level=6] [ref=e258]
+                  - heading "BeOne Medicines to Announce Fourth Quarter and Full Year 2025 Financial Results…" [level=4] [ref=e259]
+                - generic [ref=e262]: Read more
+            - group "12 / 12" [ref=e263]:
+              - link "January 13, 2026 BeOne Medicines Highlights Global Oncology Leadership at 44th Annual J.P. Morgan Healthcare… Read more" [ref=e264] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/news/BeOne-Medicines-Highlights-Global-Oncology-Leadership-at-44th-Annual-J.P.-Morgan-Healthcare-Conference/224f9f2c-d471-43f7-92ba-ff91675833ee%20
+                - generic [ref=e265]:
+                  - heading "January 13, 2026" [level=6] [ref=e266]
+                  - heading "BeOne Medicines Highlights Global Oncology Leadership at 44th Annual J.P. Morgan Healthcare…" [level=4] [ref=e267]
+                - generic [ref=e270]: Read more
+          - generic [ref=e271]:
+            - generic [ref=e278]:
+              - generic [ref=e279]: "1"
+              - text: /
+              - generic [ref=e280]: "4"
+            - generic [ref=e281]:
+              - button "Previous slide" [disabled]:
+                - img
+              - button "Next slide" [ref=e282] [cursor=pointer]:
+                - img [ref=e283]
+    - generic [ref=e287]:
+      - img "Female researcher analyzing samples in a lab, contributing to cancer treatment and research advancements." [ref=e290]
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - heading "Careers" [level=6] [ref=e294]
+          - heading "Be You. Be Change. BeOne." [level=2] [ref=e295]
+        - generic [ref=e297]:
+          - paragraph [ref=e298]: We cannot develop life-changing cancer treatments and deliver them to millions of people around the world alone. Our greatest strength is our people – united by science, driven by purpose, and relentless in our focus on patients.
+          - paragraph [ref=e299]: If you’re interested in challenging the status quo in cancer treatment, we’re interested in you.
+        - link "Join the team" [ref=e301] [cursor=pointer]:
+          - /url: https://beonemedicines.com/careers/
+          - generic [ref=e302]: Join the team
+    - generic [ref=e305]:
+      - img "Doctor consulting with a patient about cancer treatment options, highlighting the impact of cancer research in healthcare." [ref=e308]
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - heading "Clinical Trials" [level=6] [ref=e312]
+          - heading "Participate in Research" [level=2] [ref=e313]
+        - paragraph [ref=e316]: We’re developing treatments for a range of high-burden cancers, including blood, lung, breast/gynecological, gastrointestinal, and rare cancers. Learn more about our open clinical trials. And if you’re a patient, healthcare provider or researcher, learn how you can participate in our research to help move science forward and develop the future of cancer treatment.
+        - link "Find trial information" [ref=e318] [cursor=pointer]:
+          - /url: https://beonemedicines.com/science/clinical-trials/
+          - generic [ref=e319]: Find trial information
+  - contentinfo [ref=e320]:
+    - generic [ref=e321]:
+      - generic [ref=e322]:
+        - link "BeOne Logo" [ref=e324] [cursor=pointer]:
+          - /url: /
+          - img "BeOne Logo" [ref=e325]
+        - generic [ref=e326]:
+          - link "" [ref=e327] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/beonemedicines
+            - generic [ref=e328]: 
+          - link "" [ref=e329] [cursor=pointer]:
+            - /url: https://x.com/Beonemedicines
+            - generic [ref=e330]: 
+          - link "" [ref=e331] [cursor=pointer]:
+            - /url: https://www.facebook.com/BeOneMeds
+            - generic [ref=e332]: 
+          - link "" [ref=e333] [cursor=pointer]:
+            - /url: https://www.instagram.com/beonemedicines/
+            - generic [ref=e334]: 
+          - link "" [ref=e335] [cursor=pointer]:
+            - /url: https://www.youtube.com/@BeOneMedicines
+            - generic [ref=e336]: 
+      - generic [ref=e338]:
+        - list [ref=e340]:
+          - listitem [ref=e341]:
+            - link "Contact Us" [ref=e342] [cursor=pointer]:
+              - /url: /contact-us/
+          - listitem [ref=e343]:
+            - link "Report Adverse Events" [ref=e344] [cursor=pointer]:
+              - /url: /contact-us/report-adverse-event/
+          - listitem [ref=e345]:
+            - link "Newsroom" [ref=e346] [cursor=pointer]:
+              - /url: /newsroom/
+          - listitem [ref=e347]:
+            - link "Global Transparency" [ref=e348] [cursor=pointer]:
+              - /url: /responsibility/operating-responsibly/global-transparency/
+          - listitem [ref=e349]:
+            - link "Suppliers" [ref=e350] [cursor=pointer]:
+              - /url: /responsibility/operating-responsibly/suppliers/
+        - generic [ref=e351]:
+          - heading "EXTERNAL LINKS" [level=2] [ref=e352]
+          - list [ref=e353]:
+            - listitem [ref=e354]:
+              - link "NASDAQ Investors" [ref=e355] [cursor=pointer]:
+                - /url: https://ir.beonemedicines.com/
+            - listitem [ref=e356]:
+              - link "HKEX Investors" [ref=e357] [cursor=pointer]:
+                - /url: https://hkexir.beonemedicines.com/
+            - listitem [ref=e358]:
+              - link "SSE Investors" [ref=e359] [cursor=pointer]:
+                - /url: https://sseir.beonemedicines.com/en/
+            - listitem [ref=e360]:
+              - link "Medical Information" [ref=e361] [cursor=pointer]:
+                - /url: https://www.beigenemedical.com/
+    - list [ref=e364]:
+      - listitem [ref=e365]:
+        - link "Terms of Use" [ref=e366] [cursor=pointer]:
+          - /url: /terms-of-use/
+      - listitem [ref=e367]:
+        - link "Privacy Policy" [ref=e368] [cursor=pointer]:
+          - /url: /privacy-policy/
+    - paragraph [ref=e371]: © BeOne Medicines I GmbH, 2025 All Rights Reserved.

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A scannable dashboard of Microsoft 365 Copilot feature updates — what's new and what's coming across the suite." />
+  <title>Microsoft 365 Copilot Updates</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <div class="header__titles">
+        <h1 class="header__title">Microsoft 365 Copilot Updates</h1>
+        <p class="header__subtitle">Tracking what's new and what's coming across the M365 Copilot suite</p>
+      </div>
+      <div class="header__meta">
+        <button id="refresh-btn" class="icon-btn" type="button" aria-label="Refresh data" title="Refresh data">
+          <span class="updated-label">
+            Last updated: <span id="last-updated" aria-live="polite">—</span>
+          </span>
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12a9 9 0 1 1-2.64-6.36"/><polyline points="21 3 21 9 15 9"/>
+          </svg>
+        </button>
+        <button id="theme-toggle" class="icon-btn icon-btn--square" type="button" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle theme">
+          <svg class="icon icon--sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon icon--moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls" role="search">
+    <div class="controls__inner">
+      <div class="controls__row controls__row--top">
+        <div class="search">
+          <svg class="search__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input id="search-input" class="search__input" type="search" placeholder="Search updates…  ( / to focus )" aria-label="Search updates by title, summary or tag" autocomplete="off" />
+        </div>
+        <div class="window-select">
+          <label for="window-input" class="window-select__label">Time window</label>
+          <select id="window-input" class="window-select__input" aria-label="Time window">
+            <option value="7">Last 7 days</option>
+            <option value="30">Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="all">All time</option>
+          </select>
+        </div>
+        <p class="count-readout" id="count-readout" aria-live="polite">Showing 0 of 0 updates</p>
+      </div>
+
+      <div class="controls__row">
+        <fieldset class="chip-group" id="app-chips">
+          <legend class="chip-group__legend">Apps</legend>
+          <!-- app chips injected by JS -->
+        </fieldset>
+      </div>
+
+      <div class="controls__row">
+        <fieldset class="chip-group" id="status-chips">
+          <legend class="chip-group__legend">Status</legend>
+          <!-- status chips injected by JS -->
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <main id="main" class="main" tabindex="-1">
+    <!-- Loading skeleton -->
+    <div id="loading" class="state state--loading" aria-hidden="false">
+      <div class="skeleton-grid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+      <p class="state__text">Loading updates…</p>
+    </div>
+
+    <!-- Error state -->
+    <div id="error" class="state state--error" hidden>
+      <p class="state__text">⚠️ Couldn't load updates.</p>
+      <p class="state__sub" id="error-detail"></p>
+      <button id="retry-btn" class="btn" type="button">Retry</button>
+    </div>
+
+    <!-- Content -->
+    <div id="content" hidden>
+      <section class="section" id="released-section" aria-labelledby="released-heading">
+        <h2 class="section__heading" id="released-heading">
+          Recently Released <span class="section__count" id="released-count">0</span>
+        </h2>
+        <div id="released-groups"></div>
+        <div class="empty" id="released-empty" hidden>
+          <p>No released updates match your filters.</p>
+          <button class="btn btn--ghost clear-filters-btn" type="button">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="section" id="upcoming-section" aria-labelledby="upcoming-heading">
+        <h2 class="section__heading" id="upcoming-heading">
+          Upcoming &amp; Rolling Out <span class="section__count" id="upcoming-count">0</span>
+        </h2>
+        <div id="upcoming-groups"></div>
+        <div class="empty" id="upcoming-empty" hidden>
+          <p>No upcoming items match your filters.</p>
+          <button class="btn btn--ghost clear-filters-btn" type="button">Clear filters</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Data read from <code>data/updates.json</code> · updated by an external agent · this page is a static read-only view.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

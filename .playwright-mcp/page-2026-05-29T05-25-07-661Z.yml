@@ -1,0 +1,481 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Microsoft 365 Copilot Updates" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Tracking what's new and what's coming across the M365 Copilot suite
+      - generic [ref=e8]:
+        - button "Refresh data" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: "Last updated: just now"
+          - img [ref=e11]
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - search [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img
+          - searchbox "Search updates by title, summary or tag" [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]: Time window
+          - combobox "Time window" [ref=e25] [cursor=pointer]:
+            - option "Last 7 days"
+            - option "Last 30 days" [selected]
+            - option "Last 90 days"
+            - option "All time"
+        - paragraph [ref=e26]: Showing 22 of 22 updates
+      - group "Apps" [ref=e28]:
+        - generic [ref=e29]: Apps
+        - button "Word" [pressed] [ref=e30] [cursor=pointer]
+        - button "PowerPoint" [pressed] [ref=e31] [cursor=pointer]
+        - button "Outlook" [pressed] [ref=e32] [cursor=pointer]
+        - button "Teams" [pressed] [ref=e33] [cursor=pointer]
+        - button "OneNote" [pressed] [ref=e34] [cursor=pointer]
+        - button "SharePoint" [pressed] [ref=e35] [cursor=pointer]
+        - button "Copilot Chat" [pressed] [ref=e36] [cursor=pointer]
+        - button "Microsoft 365 Copilot" [pressed] [ref=e37] [cursor=pointer]
+      - group "Status" [ref=e39]:
+        - generic [ref=e40]: Status
+        - button "Launched" [pressed] [ref=e41] [cursor=pointer]
+        - button "Rolling out" [pressed] [ref=e42] [cursor=pointer]
+        - button "In development" [pressed] [ref=e43] [cursor=pointer]
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - region "Recently Released 6" [ref=e46]:
+        - heading "Recently Released 6" [level=2] [ref=e47]:
+          - text: Recently Released
+          - generic [ref=e48]: "6"
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - heading "Microsoft 365 Copilot 3" [level=3] [ref=e51]:
+              - text: Microsoft 365 Copilot
+              - generic [ref=e52]: "3"
+            - generic [ref=e53]:
+              - article [ref=e54]:
+                - generic [ref=e55]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e56]': M365 Copilot
+                  - 'generic "Status: Launched" [ref=e57]': Launched
+                - heading "Declarative agents now read images for richer answers" [level=3] [ref=e58]
+                - paragraph [ref=e59]: Declarative agents can now interpret images embedded in Word docs, PowerPoint decks, and PDFs, pulling meaning from charts, diagrams, and screenshots so answers draw on visual content and not just text.
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Agents
+                  - generic [ref=e62]: Vision
+                  - generic [ref=e63]: Grounding
+                - generic [ref=e64]:
+                  - generic [ref=e65]:
+                    - text: 📅
+                    - generic [ref=e66]: Updated yesterday
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e67] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=531758
+                    - text: M365 Roadmap
+                    - generic [ref=e68]: ↗
+              - article [ref=e69]:
+                - generic [ref=e70]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e71]': M365 Copilot
+                  - 'generic "Status: Launched" [ref=e72]': Launched
+                - heading "List your email attachments in Microsoft 365 Copilot" [level=3] [ref=e73]
+                - paragraph [ref=e74]: Ask Copilot to list the files you have sent or received as email attachments so you can find them without digging through your inbox.
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Email
+                  - generic [ref=e77]: Search
+                  - generic [ref=e78]: Files
+                - generic [ref=e79]:
+                  - generic [ref=e80]:
+                    - text: 📅
+                    - generic [ref=e81]: Updated 9 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e82] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=497909
+                    - text: M365 Roadmap
+                    - generic [ref=e83]: ↗
+              - article [ref=e84]:
+                - generic [ref=e85]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e86]': M365 Copilot
+                  - 'generic "Status: Launched" [ref=e87]': Launched
+                - heading "Refreshed navigation in the Microsoft 365 Copilot app" [level=3] [ref=e88]
+                - paragraph [ref=e89]: The Copilot app gets a cleaner layout with expanded chat history, quick actions to create Notebooks and agents, and clearer feature grouping.
+                - generic [ref=e90]:
+                  - generic [ref=e91]: App experience
+                  - generic [ref=e92]: Navigation
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - text: 📅
+                    - generic [ref=e95]: Updated 10 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e96] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=518222
+                    - text: M365 Roadmap
+                    - generic [ref=e97]: ↗
+          - generic [ref=e98]:
+            - heading "PowerPoint 1" [level=3] [ref=e99]:
+              - text: PowerPoint
+              - generic [ref=e100]: "1"
+            - article [ref=e102]:
+              - generic [ref=e103]:
+                - 'generic "App: PowerPoint" [ref=e104]': PowerPoint
+                - 'generic "Status: Launched" [ref=e105]': Launched
+              - heading "Create a presentation with Copilot straight from the web app" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Copilot can now generate a full presentation the moment you open PowerPoint for the web, with no extra steps to get started.
+              - generic [ref=e108]:
+                - generic [ref=e109]: Presentations
+                - generic [ref=e110]: Content creation
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - text: 📅
+                  - generic [ref=e113]: Updated 9 days ago
+                - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e114] [cursor=pointer]':
+                  - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560537
+                  - text: M365 Roadmap
+                  - generic [ref=e115]: ↗
+          - generic [ref=e116]:
+            - heading "Teams 1" [level=3] [ref=e117]:
+              - text: Teams
+              - generic [ref=e118]: "1"
+            - article [ref=e120]:
+              - generic [ref=e121]:
+                - 'generic "App: Teams" [ref=e122]': Teams
+                - 'generic "Status: Launched" [ref=e123]': Launched
+              - heading "Video recap in Teams meetings" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Intelligent meeting recap now produces narrated video highlights, stitching together short clips of the key moments and takeaways from a recording.
+              - generic [ref=e126]:
+                - generic [ref=e127]: Meetings
+                - generic [ref=e128]: Recap
+                - generic [ref=e129]: Video
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - text: 📅
+                  - generic [ref=e132]: Updated 10 days ago
+                - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e133] [cursor=pointer]':
+                  - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=558540
+                  - text: M365 Roadmap
+                  - generic [ref=e134]: ↗
+          - generic [ref=e135]:
+            - heading "Copilot Chat 1" [level=3] [ref=e136]:
+              - text: Copilot Chat
+              - generic [ref=e137]: "1"
+            - article [ref=e139]:
+              - generic [ref=e140]:
+                - 'generic "App: Copilot Chat" [ref=e141]': Copilot Chat
+                - 'generic "Status: Launched" [ref=e142]': Launched
+              - heading "Open Word, Excel, and PowerPoint files inside Copilot Chat" [level=3] [ref=e143]
+              - paragraph [ref=e144]: Cited documents now open directly within Copilot Chat instead of launching a separate app, so you can read a source alongside the conversation.
+              - generic [ref=e145]:
+                - generic [ref=e146]: Documents
+                - generic [ref=e147]: Citations
+                - generic [ref=e148]: Productivity
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - text: 📅
+                  - generic [ref=e151]: Updated 7 days ago
+                - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e152] [cursor=pointer]':
+                  - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=548641
+                  - text: M365 Roadmap
+                  - generic [ref=e153]: ↗
+      - region "Upcoming & Rolling Out 16" [ref=e154]:
+        - heading "Upcoming & Rolling Out 16" [level=2] [ref=e155]:
+          - text: Upcoming & Rolling Out
+          - generic [ref=e156]: "16"
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - heading "2026 Q2 12" [level=3] [ref=e159]:
+              - text: 2026 Q2
+              - generic [ref=e160]: "12"
+            - generic [ref=e161]:
+              - article [ref=e162]:
+                - generic [ref=e163]:
+                  - 'generic "App: SharePoint" [ref=e164]': SharePoint
+                  - 'generic "Status: Rolling out" [ref=e165]': Rolling out
+                - heading "Create charts on SharePoint pages with AI" [level=3] [ref=e166]
+                - paragraph [ref=e167]: While editing a SharePoint page, describe the chart you want in plain language and AI builds a rich, interactive chart for you.
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Charts
+                  - generic [ref=e170]: Page authoring
+                  - generic [ref=e171]: Data viz
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - text: 📅
+                    - generic [ref=e174]: Updated yesterday
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e175] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560076
+                    - text: M365 Roadmap
+                    - generic [ref=e176]: ↗
+              - article [ref=e177]:
+                - generic [ref=e178]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e179]': M365 Copilot
+                  - 'generic "Status: Rolling out" [ref=e180]': Rolling out
+                - heading "Add web links as references in Copilot Notebooks" [level=3] [ref=e181]
+                - paragraph [ref=e182]: Copilot Notebooks can now use web links as grounding references alongside your other sources.
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Notebooks
+                  - generic [ref=e185]: Grounding
+                  - generic [ref=e186]: Web
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - text: 📅
+                    - generic [ref=e189]: Updated yesterday
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e190] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=516040
+                    - text: M365 Roadmap
+                    - generic [ref=e191]: ↗
+              - article [ref=e192]:
+                - generic [ref=e193]:
+                  - 'generic "App: OneNote" [ref=e194]': OneNote
+                  - 'generic "Status: Rolling out" [ref=e195]': Rolling out
+                - heading "Multimodal capture in Copilot Notebooks on iPhone" [level=3] [ref=e196]
+                - paragraph [ref=e197]: Transcribe audio, snap photos, and type notes in a single session on iPhone; Copilot turns it into a structured Copilot Page saved to your notebook. Built for capturing in-person conversations and whiteboard sessions.
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Notebooks
+                  - generic [ref=e200]: Mobile
+                  - generic [ref=e201]: Multimodal
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - text: 📅
+                    - generic [ref=e204]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e205] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559095
+                    - text: M365 Roadmap
+                    - generic [ref=e206]: ↗
+              - article [ref=e207]:
+                - generic [ref=e208]:
+                  - 'generic "App: Word" [ref=e209]': Word
+                  - 'generic "Status: Rolling out" [ref=e210]': Rolling out
+                - heading "Choose Anthropic models when editing with Copilot in Word" [level=3] [ref=e211]
+                - paragraph [ref=e212]: When editing a document with Copilot in Word, you can now select Anthropic models in addition to OpenAI models.
+                - generic [ref=e213]:
+                  - generic [ref=e214]: Models
+                  - generic [ref=e215]: Editing
+                  - generic [ref=e216]: Choice
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - text: 📅
+                    - generic [ref=e219]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e220] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=558440
+                    - text: M365 Roadmap
+                    - generic [ref=e221]: ↗
+              - article [ref=e222]:
+                - generic [ref=e223]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e224]': M365 Copilot
+                  - 'generic "Status: Rolling out" [ref=e225]': Rolling out
+                - heading "Write, code, and create with Copilot in Pages" [level=3] [ref=e226]
+                - paragraph [ref=e227]: From the tools menu in Copilot Chat, co-create content or code with Copilot directly in a Page, then share it when it is ready.
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Pages
+                  - generic [ref=e230]: Content creation
+                  - generic [ref=e231]: Coding
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - text: 📅
+                    - generic [ref=e234]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e235] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=509109
+                    - text: M365 Roadmap
+                    - generic [ref=e236]: ↗
+              - article [ref=e237]:
+                - generic [ref=e238]:
+                  - 'generic "App: OneNote" [ref=e239]': OneNote
+                  - 'generic "Status: Rolling out" [ref=e240]': Rolling out
+                - heading "Mind Maps in Copilot Notebooks" [level=3] [ref=e241]
+                - paragraph [ref=e242]: Copilot generates an interactive mind map of a notebook's key topics and how they relate. Explore nodes, read per-node summaries, and ask the notebook chat for more detail.
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Notebooks
+                  - generic [ref=e245]: Mind maps
+                  - generic [ref=e246]: Visualization
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - text: 📅
+                    - generic [ref=e249]: Updated 6 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e250] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559029
+                    - text: M365 Roadmap
+                    - generic [ref=e251]: ↗
+              - article [ref=e252]:
+                - generic [ref=e253]:
+                  - 'generic "App: Copilot Chat" [ref=e254]': Copilot Chat
+                  - 'generic "Status: Rolling out" [ref=e255]': Rolling out
+                - heading "Surveys Agent and Copilot Chat in Microsoft Forms" [level=3] [ref=e256]
+                - paragraph [ref=e257]: Copilot Chat is now built into Microsoft Forms, with a Surveys Agent that recommends improvements to a form or quiz, drafts invitations, and analyzes results.
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Forms
+                  - generic [ref=e260]: Agents
+                  - generic [ref=e261]: Surveys
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - text: 📅
+                    - generic [ref=e264]: Updated 6 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e265] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=553136
+                    - text: M365 Roadmap
+                    - generic [ref=e266]: ↗
+              - article [ref=e267]:
+                - generic [ref=e268]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e269]': M365 Copilot
+                  - 'generic "Status: Rolling out" [ref=e270]': Rolling out
+                - heading "Chat one-on-one with SharePoint agents in Teams" [level=3] [ref=e271]
+                - paragraph [ref=e272]: Start a direct, one-on-one chat with a SharePoint agent from within a Teams chat.
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Agents
+                  - generic [ref=e275]: Teams
+                  - generic [ref=e276]: SharePoint
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - text: 📅
+                    - generic [ref=e279]: Updated 7 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e280] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=481825
+                    - text: M365 Roadmap
+                    - generic [ref=e281]: ↗
+              - article [ref=e282]:
+                - generic [ref=e283]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e284]': M365 Copilot
+                  - 'generic "Status: In development" [ref=e285]': In development
+                - heading "Vision in Microsoft 365 Copilot reads your screen and camera" [level=3] [ref=e286]
+                - paragraph [ref=e287]: Share your desktop screen or phone camera and Copilot analyzes what it sees in real time, answering spoken questions grounded in both work and web data.
+                - generic [ref=e288]:
+                  - generic [ref=e289]: Vision
+                  - generic [ref=e290]: Multimodal
+                  - generic [ref=e291]: Real-time
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - text: 📅
+                    - generic [ref=e294]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e295] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=561037
+                    - text: M365 Roadmap
+                    - generic [ref=e296]: ↗
+              - article [ref=e297]:
+                - generic [ref=e298]:
+                  - 'generic "App: Outlook" [ref=e299]': Outlook
+                  - 'generic "Status: In development" [ref=e300]': In development
+                - heading "Highlight and rewrite email drafts with Copilot" [level=3] [ref=e301]
+                - paragraph [ref=e302]: Select part of an email draft and ask Copilot to rework it, changing the length, tone, or structure without rewriting the whole message.
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Email
+                  - generic [ref=e305]: Drafting
+                  - generic [ref=e306]: Rewrite
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - text: 📅
+                    - generic [ref=e309]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e310] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=564605
+                    - text: M365 Roadmap
+                    - generic [ref=e311]: ↗
+              - article [ref=e312]:
+                - generic [ref=e313]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e314]': M365 Copilot
+                  - 'generic "Status: In development" [ref=e315]': In development
+                - heading "Project Manager agent in Microsoft 365 Copilot" [level=3] [ref=e316]
+                - paragraph [ref=e317]: A new Project Manager agent helps you plan, organize, and track work, starting with core task and plan management and adding deeper project capabilities over time.
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Agents
+                  - generic [ref=e320]: Project management
+                  - generic [ref=e321]: Planning
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - text: 📅
+                    - generic [ref=e324]: Updated 6 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e325] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=516576
+                    - text: M365 Roadmap
+                    - generic [ref=e326]: ↗
+              - article [ref=e327]:
+                - generic [ref=e328]:
+                  - 'generic "App: PowerPoint" [ref=e329]': PowerPoint
+                  - 'generic "Status: In development" [ref=e330]': In development
+                - heading "Explain selected slide text during PowerPoint Live" [level=3] [ref=e331]
+                - paragraph [ref=e332]: In a PowerPoint Live session, attendees can select text on a slide and ask Copilot to explain it.
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Presentations
+                  - generic [ref=e335]: Meetings
+                  - generic [ref=e336]: Explanations
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - text: 📅
+                    - generic [ref=e339]: Updated 8 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e340] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=557256
+                    - text: M365 Roadmap
+                    - generic [ref=e341]: ↗
+          - generic [ref=e342]:
+            - heading "2026 Q3 4" [level=3] [ref=e343]:
+              - text: 2026 Q3
+              - generic [ref=e344]: "4"
+            - generic [ref=e345]:
+              - article [ref=e346]:
+                - generic [ref=e347]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e348]': M365 Copilot
+                  - 'generic "Status: In development" [ref=e349]': In development
+                - heading "Query Dataverse business data from Microsoft 365 Copilot" [level=3] [ref=e350]
+                - paragraph [ref=e351]: Search and query your Dataverse business data directly from Microsoft 365 Copilot.
+                - generic [ref=e352]:
+                  - generic [ref=e353]: Dataverse
+                  - generic [ref=e354]: Business data
+                  - generic [ref=e355]: Grounding
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - text: 📅
+                    - generic [ref=e358]: Updated yesterday
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e359] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=560539
+                    - text: M365 Roadmap
+                    - generic [ref=e360]: ↗
+              - article [ref=e361]:
+                - generic [ref=e362]:
+                  - 'generic "App: Teams" [ref=e363]': Teams
+                  - 'generic "Status: In development" [ref=e364]': In development
+                - heading "Built-in AI Interpreter for calls on Teams Phone devices" [level=3] [ref=e365]
+                - paragraph [ref=e366]: Teams Phone devices gain real-time spoken-language interpretation during calls, so people can take part naturally in multilingual conversations.
+                - generic [ref=e367]:
+                  - generic [ref=e368]: Translation
+                  - generic [ref=e369]: Calling
+                  - generic [ref=e370]: Accessibility
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - text: 📅
+                    - generic [ref=e373]: Updated yesterday
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e374] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=553594
+                    - text: M365 Roadmap
+                    - generic [ref=e375]: ↗
+              - article [ref=e376]:
+                - generic [ref=e377]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e378]': M365 Copilot
+                  - 'generic "Status: In development" [ref=e379]': In development
+                - heading "Personalized Copilot memory from your work activity" [level=3] [ref=e380]
+                - paragraph [ref=e381]: Copilot uses your Microsoft 365 activity to give more relevant, contextual responses, with clearer settings to view and manage what it remembers.
+                - generic [ref=e382]:
+                  - generic [ref=e383]: Memory
+                  - generic [ref=e384]: Personalization
+                  - generic [ref=e385]: Context
+                - generic [ref=e386]:
+                  - generic [ref=e387]:
+                    - text: 📅
+                    - generic [ref=e388]: Updated 2 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e389] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=551195
+                    - text: M365 Roadmap
+                    - generic [ref=e390]: ↗
+              - article [ref=e391]:
+                - generic [ref=e392]:
+                  - 'generic "App: Microsoft 365 Copilot" [ref=e393]': M365 Copilot
+                  - 'generic "Status: In development" [ref=e394]': In development
+                - heading "Researcher agent access through Work IQ APIs" [level=3] [ref=e395]
+                - paragraph [ref=e396]: Developers can call the Researcher agent via the Work IQ endpoint to run multi-step analysis, deep reasoning, and synthesis across enterprise content in agentic workflows.
+                - generic [ref=e397]:
+                  - generic [ref=e398]: Agents
+                  - generic [ref=e399]: Developer
+                  - generic [ref=e400]: Research
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - text: 📅
+                    - generic [ref=e403]: Updated 10 days ago
+                  - 'link "Open source: M365 Roadmap (opens in new tab)" [ref=e404] [cursor=pointer]':
+                    - /url: https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=559018
+                    - text: M365 Roadmap
+                    - generic [ref=e405]: ↗
+  - contentinfo [ref=e406]:
+    - paragraph [ref=e407]:
+      - text: Data read from
+      - code [ref=e408]: data/updates.json
+      - text: · updated by an external agent · this page is a static read-only view.
