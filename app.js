@@ -70,7 +70,6 @@
     retry: $('retry-btn'),
     lastUpdated: $('last-updated'),
     refresh: $('refresh-btn'),
-    themeToggle: $('theme-toggle'),
     search: $('search-input'),
     windowInput: $('window-input'),
     appChips: $('app-chips'),
@@ -83,26 +82,6 @@
     upcomingCount: $('upcoming-count'),
     upcomingEmpty: $('upcoming-empty')
   };
-
-  // ============================================================
-  // Theme
-  // ============================================================
-  function initTheme() {
-    let theme = localStorage.getItem('theme');
-    if (!theme) {
-      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-    applyTheme(theme);
-  }
-  function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    els.themeToggle.setAttribute('aria-pressed', String(theme === 'dark'));
-  }
-  function toggleTheme() {
-    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('theme', next);
-    applyTheme(next);
-  }
 
   // ============================================================
   // Time helpers
@@ -565,8 +544,6 @@
   }
 
   function bindEvents() {
-    els.themeToggle.addEventListener('click', toggleTheme);
-
     els.refresh.addEventListener('click', () => {
       els.refresh.classList.add('refreshing');
       loadData().finally(() => {
@@ -624,7 +601,6 @@
   // Init
   // ============================================================
   function init() {
-    initTheme();
     readHash();
     buildStatusChips();
     applyStateToControls();

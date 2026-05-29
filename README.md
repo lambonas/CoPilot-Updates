@@ -76,8 +76,7 @@ via `file://` will fail because `fetch` can't read local files under that
 protocol).
 
 ```bash
-# Python (built in on most systems)
-cd copilot-updates-hub
+# from the repo root — Python (built in on most systems)
 python -m http.server 8000
 # then open http://localhost:8000
 
@@ -92,18 +91,16 @@ minute, and the in-page refresh button forces an immediate reload.
 
 ## Deploy to GitHub Pages
 
-1. Push this folder's contents to the `main` branch of your repository.
+1. Push to the `main` branch (these files live at the repo root).
 2. In the repo: **Settings → Pages**.
 3. Under **Build and deployment → Source**, choose **Deploy from a branch**.
 4. Select branch **`main`** and folder **`/ (root)`**, then **Save**.
 5. Wait for the Pages build to finish; your site appears at
-   `https://<user>.github.io/<repo>/`.
+   `https://<user>.github.io/<repo>/` — for this repo,
+   `https://lambonas.github.io/CoPilot-Updates/`.
 
 > The included `.nojekyll` file tells GitHub Pages to skip Jekyll processing
 > and serve the files as-is (important so nothing under `data/` is mangled).
->
-> If your repo root is the parent of `copilot-updates-hub/`, either move these
-> files to the repo root or set Pages to serve from the appropriate folder.
 
 ---
 
@@ -147,7 +144,9 @@ view.
 - Client-side search (title + summary + tags), debounced & case-insensitive.
 - App, status, and time-window filters; **shareable via the URL hash**
   (`#app=Excel,Word&window=30&q=python`).
-- Light/dark theme (persisted; honours `prefers-color-scheme` on first visit).
+- Single light theme, with a colour palette derived from
+  [BeOne Medicines](https://beonemedicines.com) (brand navy `#28334a`,
+  teal accent `#006680`).
 - Skeleton loading state, error state with retry, empty states with
   "Clear filters".
 - Keyboard: `/` focuses search, `Esc` clears it.

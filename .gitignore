@@ -1,0 +1,4 @@
+# Local test / tooling artifacts — not part of the site
+.playwright-mcp/
+*.png
+!data/**/*.png
