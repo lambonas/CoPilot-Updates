@@ -23,6 +23,7 @@ that file **must** obey this exact shape. Treat it as a fixed contract.
       "id": "roadmap-498765",                 // stable unique id
       "title": "Copilot in Excel: Python data analysis",
       "summary": "One-paragraph plain-English description, 1–3 sentences.",
+      "use_case": "What a user can actually do with it — a concrete, 1–2 sentence example. Optional.",
       "app": "Excel",                          // see allowed apps below
       "status": "Launched",                    // "In development" | "Rolling out" | "Launched"
       "release_phase": "General Availability", // optional, freeform
@@ -53,6 +54,11 @@ These double as the section headers in **Recently Released**:
 ### Field notes for the agent
 
 - **`id`** must be stable and unique — it identifies an item across runs.
+- **`use_case`** is optional. When present it renders as a highlighted
+  "💡 What you can do" callout under the summary — keep it concrete and
+  action-oriented ("Ask Copilot to…", "Open … and …"). Omit it when an update
+  has no meaningful end-user action (e.g. pure back-end or developer-only
+  changes) and the card simply drops the callout.
 - **`status`** drives which section an item lands in:
   - `"Launched"` → **Recently Released** (grouped by `app`).
   - `"Rolling out"` / `"In development"` → **Upcoming & Rolling Out**
@@ -141,7 +147,10 @@ view.
 
 ## Features
 
-- Client-side search (title + summary + tags), debounced & case-insensitive.
+- Per-update **"What you can do"** callout (`use_case`) spelling out a concrete
+  way to use each feature, shown beneath the summary.
+- Client-side search (title + summary + use case + tags), debounced &
+  case-insensitive.
 - App, status, and time-window filters; **shareable via the URL hash**
   (`#app=Excel,Word&window=30&q=python`).
 - Single light theme, with a colour palette derived from

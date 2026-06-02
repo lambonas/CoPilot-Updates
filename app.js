@@ -306,6 +306,7 @@
     const hay = [
       item.title || '',
       item.summary || '',
+      item.use_case || '',
       ...(Array.isArray(item.tags) ? item.tags : [])
     ].join(' ').toLowerCase();
     return hay.includes(q);
@@ -363,6 +364,13 @@
       ? `<div class="card__tags">${tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`
       : '';
 
+    const useCaseHtml = item.use_case
+      ? `<div class="card__usecase">
+          <span class="card__usecase-label"><span aria-hidden="true">💡</span> What you can do</span>
+          <p class="card__usecase-text">${escapeHtml(item.use_case)}</p>
+        </div>`
+      : '';
+
     const sourceLabel = item.source ? escapeHtml(item.source) : 'Source';
     const sourceLink = item.source_url
       ? `<a class="card__source" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener" aria-label="Open source: ${sourceLabel} (opens in new tab)">${sourceLabel} <span aria-hidden="true">↗</span></a>`
@@ -376,6 +384,7 @@
       </div>
       <h3 class="card__title">${newSr}${escapeHtml(item.title || 'Untitled')}</h3>
       <p class="card__summary">${escapeHtml(item.summary || '')}</p>
+      ${useCaseHtml}
       ${tagsHtml}
       <div class="card__footer">
         <span class="card__updated">📅 <span>${rel.absolute ? '' : 'Updated '}${escapeHtml(rel.text)}</span></span>
